@@ -80,6 +80,13 @@
 			<integer>270</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>PROJECTS_FILE</key>
+		<string>/Users/cbackstrom/Library/Application Support/Code - Insiders/User/projects.json</string>
+	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
