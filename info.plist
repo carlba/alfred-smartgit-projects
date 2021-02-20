@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>5F577BD2-33E3-4B83-B636-263C4542EF66</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A22B83B-C31A-47CC-87BA-0CD503D51C02</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
@@ -18,6 +32,29 @@
 	<string>SmartGit</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a "SmartGit" -n --args "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0A22B83B-C31A-47CC-87BA-0CD503D51C02</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -72,6 +109,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0A22B83B-C31A-47CC-87BA-0CD503D51C02</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
 		<key>5F577BD2-33E3-4B83-B636-263C4542EF66</key>
 		<dict>
 			<key>xpos</key>
